@@ -12,6 +12,7 @@ start = ""
 end = ""
 data = pd.DataFrame()
 comp_name = ""
+date_range = []
 
 @app.route('/')
 def index():
