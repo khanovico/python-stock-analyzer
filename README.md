@@ -1,11 +1,11 @@
-# Stock Analyzer
-Stock Analysis webapp with Pandas, Flask, Scikit-Learn and beautiful AmCharts
-
+# Python Stock Analyser
+This is hand-crafted python webapp project, built with Pandas and Scikit-learn frameworks as data analyzing tools, AmCharts as visualization tool and with Flask python backend.
+This stock analyser plays the role of data entry and center at the same time.
 
 Usage:
 
-Open terminal:
-
+1. Download latest miniconda version and install it on local os.
+2. Set up python enviroment for running the app.
 ```
 $ pip install -r requirements.txt
 $ export FLASK_APP=app.py
@@ -19,11 +19,10 @@ $ flask run
 ## TODO:
 
 #### * Create APIs for data processing instead of running the whole logica app for the data process
-#### * ~~Save the trained models in ONNX or other type of standard~~ Saved in pickle for now
 #### * Create other views for data analysis
 #### * Make the top bar work correctly, returning the data to the ORIGIN request
 
 
 ***This is beta software so remember everything might probably come crashing down...
 
-Made with ❤ by repollo from nori-labs.com
+Made with ❤ by KhanovicAI
